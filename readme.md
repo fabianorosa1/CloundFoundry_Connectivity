@@ -11,3 +11,5 @@ Add the routes (destinations) for the specific application (for example, node-he
 * The destination is a name that refers to the same name in the destinations configuration. 
 
 * The destinations configuration is specified in an environment variable passed to the approuter application.
+
+The start script (for example, approuter.js) is mandatory; the start script is executed after application deployment.
