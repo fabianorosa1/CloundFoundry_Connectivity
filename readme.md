@@ -23,3 +23,5 @@ The value of the destination "name" property ("name":“backend” in the exampl
 * source in configuration file: Describes a regular expression that matches the incoming request URL.
 * target: The incoming request path is rewritten to this target
 
+The application router is used to serve **static content**, propagates user information, and acts as a proxy to forward requests to other micro services. The routing configuration for an application is defined in one or more destinations. 
+
