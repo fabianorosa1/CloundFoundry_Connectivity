@@ -19,3 +19,7 @@ The start script (for example, approuter.js) is mandatory; the start script is e
 A destination defines the back-end connectivity. In its simplest form, a destination is an URL to which requests are forwarded. There has to be a destination for every single app (microservice) that is a part of the business application.
 
 The value of the destination "name" property ("name":“backend” in the example below) must match the value of the destinations property configured for a route in the corresponding application-router configuration file (xs-app.json).
+
+* source in configuration file: Describes a regular expression that matches the incoming request URL.
+* target: The incoming request path is rewritten to this target
+
