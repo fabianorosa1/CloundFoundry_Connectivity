@@ -10,7 +10,7 @@ applications:
     NODE_TLS_REJECT_UNAUTHORIZED: 0
     destinations: >
       [
-         {"name":"dest-to-app", "url" :"https://connectivity-app-demo.cfapps.eu10.hana.ondemand.com", "forwardAuthToken": true },
+         {"name":"dest-to-app", "url" :"https://connectivity-jerry-demo.cfapps.eu10.hana.ondemand.com", "forwardAuthToken": true },
          {"name":"ui5", "url":"https://sapui5.hana.ondemand.com/1.42.6/resources/"}
       ]
   services:
