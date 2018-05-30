@@ -38,3 +38,5 @@ destination name( sub account level): jerry-abap-backend
 jerry-destination-lite: destination instance in dev space - bind to application
 
 connectivity-instance: connectivity-jerry-demo, bind to application
+
+app name: connectivity-jerry-demo
