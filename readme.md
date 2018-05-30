@@ -44,3 +44,7 @@ app name: connectivity-jerry-demo
 # 2018-05-30 11:54AM
 
 status: CRASHED. See [blog](https://docs.cloudfoundry.org/devguide/deploy-apps/troubleshoot-app-health.html#start)
+
+cf logs connectvity-demo-approuter --recent
+
+cf push -f ./
