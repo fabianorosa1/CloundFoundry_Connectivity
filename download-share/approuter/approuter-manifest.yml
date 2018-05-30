@@ -2,7 +2,7 @@
 applications:
 
 - name: connectvity-demo-approuter
-  host: connectvity-demo-approuter
+  host: connectvity-i042416-approuter
   buildpack: nodejs_buildpack
   memory: 128M
   path: ./
