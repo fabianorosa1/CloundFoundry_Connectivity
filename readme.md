@@ -25,6 +25,10 @@ The value of the destination "name" property ("name":“backend” in the exampl
 
 The application router is used to serve **static content**, propagates user information, and acts as a proxy to forward requests to other micro services. The routing configuration for an application is defined in one or more destinations. 
 
+## SCN blogs
+
+[part 2: How to use SAP Cloud Platform Connectivity and Cloud Connector in the Cloud Foundry environment](https://blogs.sap.com/2017/07/13/part-2-how-to-use-the-sap-cloud-platform-connectivity-and-the-cloud-connector-in-the-cloud-foundry-environment/)
+
 ## Jerry application info
 
 xsuaa: xsuaa-jerry-demo
