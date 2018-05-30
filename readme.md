@@ -27,3 +27,4 @@ The application router is used to serve **static content**, propagates user info
 
 ## Jerry application info
 
+xsuaa: xsuaa-jerry-demo
