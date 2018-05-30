@@ -34,3 +34,5 @@ The application router is used to serve **static content**, propagates user info
 xsuaa: xsuaa-jerry-demo
 
 destination name( sub account level): jerry-abap-backend
+
+jerry-destination-lite: destination instance in dev space
