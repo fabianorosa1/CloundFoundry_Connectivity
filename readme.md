@@ -39,7 +39,13 @@ jerry-destination-lite: destination instance in dev space - bind to application
 
 connectivity-instance: connectivity-jerry-demo, bind to application
 
-app name: connectivity-jerry-demo
+application name: connectivity-jerry-demo
+
+## Jerry account
+
+SAP internal endpoint: https://api.cf.sap.hana.ondemand.com
+
+
 
 # 2018-05-30 11:54AM
 
@@ -47,4 +53,4 @@ status: CRASHED. See [blog](https://docs.cloudfoundry.org/devguide/deploy-apps/t
 
 cf logs connectvity-demo-approuter --recent
 
-cf push -f ./
+cf push -f ./approuter-manifest.yml
