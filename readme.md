@@ -54,3 +54,7 @@ status: CRASHED. See [blog](https://docs.cloudfoundry.org/devguide/deploy-apps/t
 cf logs connectvity-demo-approuter --recent
 
 cf push -f ./approuter-manifest.yml
+
+# SCN blogs
+
+* [Comparing SAP HANA to HANA Cloud Platform: Is it Apples to Oranges? Part 2](https://blogs.sap.com/2016/06/03/comparing-sap-hana-to-hana-cloud-platform-is-it-apples-to-oranges-part-2/)
