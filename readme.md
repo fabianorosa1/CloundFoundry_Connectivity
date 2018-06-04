@@ -64,7 +64,12 @@ why app router can automatically bind?! 3:52PM
 
 4:28PM 幺蛾子又来了：Service instance jerry-destination-lite of service xsuaa not bound to application
 
+4:35PM 新的幺蛾子：detailMessage
+:
+"com.sap.cloud.sample.connectivity.cf.exceptions.DestinationNotFoundException: Destination 'abapBackend1' could not be found"
+
 https://api.cf.eu10.hana.ondemand.com
 
+neo-app.json: destination in SCP cockpit, bound to connector 
 # SCN blogs
 
