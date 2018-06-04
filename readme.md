@@ -55,5 +55,11 @@ cf logs connectvity-demo-approuter --recent
 
 cf push -f ./approuter-manifest.yml
 
+# 2018-06-04
+
+1. Could not find service xsuaa-jerry-demo to bind to connectivity-jerry-demo 3:31PM
+why app router can automatically bind?! 3:52PM
+
+
 # SCN blogs
 

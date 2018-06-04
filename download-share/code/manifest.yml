@@ -6,7 +6,7 @@ applications:
   buildpack: java_buildpack
   memory: 512M
   instances: 1
-  path: target/connectivity-simple.war
+  path: target/connectivity.war
   env:
     # Accept any OAuth client of any identity zone  
     SAP_JWT_TRUST_ACL: '[{"clientid":"*","identityzone":"*"}]'
@@ -16,6 +16,6 @@ applications:
     xsuaa_destination_instance_name: "jerry-destination-lite"
     JAVA_OPTS: '-Xss349k'
   services:
-    - xsuaa-jerry-demo
+    - xsuaa-jerry-demo-fuck
     - connectivity-jerry-demo
     - jerry-destination-lite
