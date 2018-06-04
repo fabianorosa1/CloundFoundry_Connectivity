@@ -62,6 +62,8 @@ why app router can automatically bind?! 3:52PM
 
 2. 4:04PM root cause found: 我的api endpoint用错了！！
 
+4:28PM 幺蛾子又来了：Service instance jerry-destination-lite of service xsuaa not bound to application
+
 https://api.cf.eu10.hana.ondemand.com
 
 # SCN blogs
