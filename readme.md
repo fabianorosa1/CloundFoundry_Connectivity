@@ -71,5 +71,9 @@ why app router can automatically bind?! 3:52PM
 https://api.cf.eu10.hana.ondemand.com
 
 neo-app.json: destination in SCP cockpit, bound to connector 
+
+终于通了。No service found for namespace , name EPM_REF_APPS_SHOP_SRV, version 0001
+
+
 # SCN blogs
 
