@@ -60,6 +60,9 @@ cf push -f ./approuter-manifest.yml
 1. Could not find service xsuaa-jerry-demo to bind to connectivity-jerry-demo 3:31PM
 why app router can automatically bind?! 3:52PM
 
+2. 4:04PM root cause found: 我的api endpoint用错了！！
+
+https://api.cf.eu10.hana.ondemand.com
 
 # SCN blogs
 

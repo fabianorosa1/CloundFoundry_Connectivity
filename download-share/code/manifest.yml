@@ -16,6 +16,6 @@ applications:
     xsuaa_destination_instance_name: "jerry-destination-lite"
     JAVA_OPTS: '-Xss349k'
   services:
-    - xsuaa-jerry-demo-fuck
+    - xsuaa-jerry-demo
     - connectivity-jerry-demo
     - jerry-destination-lite
