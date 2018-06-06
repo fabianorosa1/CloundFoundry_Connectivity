@@ -41,7 +41,7 @@ public final class DestinationAccessor {
 		final String destinationName = route.getDestinationName();
 		String accessToken = tokenCacher.getToken(destinationName);
 		if (accessToken != null) {
-			LOGGER.info("Got cached token [" + accessToken + "] for destination [" + destinationName + "] in cache [" + tokenCacher.getCacheId() + "]");
+			LOGGER.info("Diablo Got cached token [" + accessToken + "] for destination [" + destinationName + "] in cache [" + tokenCacher.getCacheId() + "]");
 			return getDestination(route, accessToken, path);
 		}
 		
@@ -54,7 +54,7 @@ public final class DestinationAccessor {
 			destination = getDestination(route, accessToken, path);
 		}
 		tokenCacher.cache(destinationName, accessToken);
-		LOGGER.info("Cached token [" + accessToken + "] for destination [" + destinationName + "] in cache [" + tokenCacher.getCacheId() + "]");
+		LOGGER.info("Diablo Cached token [" + accessToken + "] for destination [" + destinationName + "] in cache [" + tokenCacher.getCacheId() + "]");
 		return destination;
 	}
 
@@ -83,6 +83,7 @@ public final class DestinationAccessor {
 		String destinationPath = String.format(DESTINATION_SERVICE_PATH, destinationName);
 		URL destinationUrl = new URL(destinationServiceUri + destinationPath);
 		
+		LOGGER.info("Diablo Destination url: " + destinationServiceUri + destinationPath);
 		HttpURLConnection httpClient = null;
 		try {
 			httpClient = HttpUtils.openUrlConnection(destinationUrl);

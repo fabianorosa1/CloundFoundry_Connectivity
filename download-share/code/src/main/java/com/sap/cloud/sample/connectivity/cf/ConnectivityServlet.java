@@ -68,7 +68,7 @@ public class ConnectivityServlet extends HttpServlet {
 
 		try {
 			connectionAttributes = getConnectionAttributes(clientRequest, tokenFactory);
-			LOGGER.info("Connecting to backend system " + connectionAttributes);
+			LOGGER.info("Diablo Connecting to backend system " + connectionAttributes);
 
 			URL url = new URL(getHttpUrl(connectionAttributes));
 			client = HttpUtils.openUrlConnection(url, connectionAttributes.getProxyType());
@@ -141,10 +141,12 @@ public class ConnectivityServlet extends HttpServlet {
 			path += "?" + clientRequest.getQueryString();
 		}
 		
+		LOGGER.info("Diablo clientRequest.getServletPath: " + clientRequest.getServletPath());
+
 		Route route = this.routeProvider.getRoute(clientRequest.getServletPath());
 		DestinationAccessor destinationAccessor = new DestinationAccessor(tokenFactory, new TokenCacher(clientRequest.getSession(), clientRequest.getUserPrincipal().getName()));
 		
-		LOGGER.info("Destination: " + route.getDestinationName());
+		LOGGER.info("Diablo Destination: " + route.getDestinationName());
 		
 		return destinationAccessor.getDestination(route, path);
 	}
@@ -157,6 +159,7 @@ public class ConnectivityServlet extends HttpServlet {
 		if (destinationUrl != null && destinationUrl.startsWith(HTTPS_PREFIX)) {
 			destinationUrl =  destinationUrl.replaceFirst(HTTPS, SharedConstants.HTTP);
 		}
+		LOGGER.info("Diablo Destination url: " + destinationUrl);
 		return destinationUrl;
 	}
 
