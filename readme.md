@@ -74,6 +74,7 @@ neo-app.json: destination in SCP cockpit, bound to connector
 
 终于通了。No service found for namespace , name EPM_REF_APPS_SHOP_SRV, version 0001
 
+[application log](https://help.sap.com/viewer/ee8e8a203e024bbb8c8c2d03fce527dc/Cloud/en-US/68454d44ad41458788959485a24305e2.html)
 
 # SCN blogs
 

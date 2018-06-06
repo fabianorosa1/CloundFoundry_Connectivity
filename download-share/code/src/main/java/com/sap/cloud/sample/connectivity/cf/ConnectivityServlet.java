@@ -54,10 +54,10 @@ public class ConnectivityServlet extends HttpServlet {
 	@Override
 	public void init() throws ServletException {
 		super.init();
+		LOGGER.info("Jerry in Servlet init()");
 		routeProvider = (RouteProvider) this.getServletContext().getAttribute(RouteProvider.class.getCanonicalName());
 	}
 
-	/** {@inheritDoc} */
 	@Override
 	protected void service(HttpServletRequest clientRequest, HttpServletResponse responseToClient)
 			throws ServletException, IOException {
