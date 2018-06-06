@@ -12,7 +12,5 @@ sap.ui.define([
 			var oModel = new ODataModel({serviceUrl: "./data-eu/", useBatch: false});
 			oView.setModel(oModel);
 		}
-
 	});
-
 });

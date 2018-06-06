@@ -1,10 +1,8 @@
 package com.sap.cloud.sample.connectivity.cf.auth;
 
 import static com.sap.cloud.sample.connectivity.cf.EnvironmentVariableAccessor.getServiceCredentials;
-
 import java.net.URI;
 import java.net.URISyntaxException;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.slf4j.Logger;
@@ -12,7 +10,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationDetails;
-
 import com.sap.xs2.security.container.SecurityContext;
 import com.sap.xs2.security.container.UserInfoException;
 import com.sap.xsa.security.container.XSTokenRequest;

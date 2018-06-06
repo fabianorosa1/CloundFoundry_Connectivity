@@ -60,6 +60,4 @@ public class Router implements ServletContextListener{
 	public void contextDestroyed(ServletContextEvent sce) {
 		
 	}
-
-
 }

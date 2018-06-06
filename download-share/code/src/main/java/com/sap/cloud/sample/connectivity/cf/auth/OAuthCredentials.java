@@ -25,5 +25,4 @@ public class OAuthCredentials {
 	public URI getXsUaaUri() {
 		return xsUaaUri;
 	}
-
 }

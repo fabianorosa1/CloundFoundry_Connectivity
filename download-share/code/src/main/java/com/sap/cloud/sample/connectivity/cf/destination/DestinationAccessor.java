@@ -2,18 +2,14 @@ package com.sap.cloud.sample.connectivity.cf.destination;
 
 import static com.sap.cloud.sample.connectivity.cf.EnvironmentVariableAccessor.getXsuaaDestinationInstanceName;
 import static java.net.HttpURLConnection.HTTP_NOT_FOUND;
-
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-
 import java.io.InputStream;
-
 import org.json.JSONException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
-
 import com.sap.cloud.sample.connectivity.cf.ConnectionAttributes;
 import com.sap.cloud.sample.connectivity.cf.EnvironmentVariableAccessor;
 import com.sap.cloud.sample.connectivity.cf.Route;

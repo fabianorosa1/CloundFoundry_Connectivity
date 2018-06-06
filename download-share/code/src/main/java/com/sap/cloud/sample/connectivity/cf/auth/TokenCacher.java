@@ -49,5 +49,4 @@ public class TokenCacher {
 			LOGGER.info("Token cache initialized: [" + getCacheId() + "]");
 		}
 	}
-
 }
