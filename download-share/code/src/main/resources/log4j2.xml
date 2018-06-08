@@ -2,18 +2,6 @@
 
 <Configuration status="warn" strict="true"
     packages="com.sap.hcp.cf.log4j2.converter,com.sap.hcp.cf.log4j2.layout">
-
-<!--
-    <DynamicThresholdFilter key="dynamic_log_level"
-        defaultThreshold="ERROR" onMatch="ACCEPT" onMismatch="DENY">
-        <KeyValuePair key="TRACE" value="TRACE" />
-        <KeyValuePair key="DEBUG" value="DEBUG" />
-        <KeyValuePair key="INFO" value="INFO" />
-        <KeyValuePair key="WARN" value="WARN" />
-        <KeyValuePair key="ERROR" value="ERROR" />
-    </DynamicThresholdFilter>
--->
-
     <Appenders>
         <Console name="STDOUT-JSON" target="SYSTEM_OUT" follow="true">
             <JsonPatternLayout charset="utf-8" />
