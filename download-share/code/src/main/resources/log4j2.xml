@@ -12,6 +12,7 @@
         </Console>
     </Appenders>
     <Loggers>
+        <!-- Jerry: Log level: INFO -->
         <Root level="${LOG_ROOT_LEVEL:-INFO}">
             <AppenderRef ref="STDOUT-JSON" />
         </Root>
